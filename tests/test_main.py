@@ -6,4 +6,5 @@ def test_input() -> None:
     numB = "765"
     result = main(numA, numB)
     expected = "1"
+
     assert result == expected
